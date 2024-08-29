@@ -1,107 +1,132 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<style>
-		@media only screen and (max-width:1080px) {
-		  .feature-pic-div {
-		  }
-		  .feature-pic {
-		  	display: block;
-		  	margin-left: auto;
-		  	margin-right: auto;
-		  }
-		  .header {
-		  	text-align: center;
-		  }
-		  li {
-		  	text-align: left;
-		  }
-		}
-	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Degrees of Freedom</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+	<script src="https://use.fontawesome.com/releases/v6.6.0/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
 </head>
-
 <body>
-	<div style="width:100%; height:100%;">
-		<div class="feature-pic-div">
-			<img class="feature-pic" src="pic.jpg" />
-		</div>
-		<div>
-<h2 class="header"><b>Azadi Bogolubov - Senior Software Engineer</b><br /></h2>
 
-<b>SUMMARY:</b><br />
-Skilled software engineer with proven track record of reducing cost overhead by means of process automation, as well as possessing skills in the entire software lifecycle for delivering state of the art enterprise applications.<br /><br />
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="img/logo.jpg" height="48pt"/>Degrees of Freedom</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<b>EDUCATION:</b><br />
-<b><i>Portland State University Portland, OR</i></b><br />
-Post-graduate study: Computer Science Dates: 9/2014-12/2014 GPA: 3.66<br />
-Bachelors of Science: Computer Science/Minor: Mathematics Completion Date: 3/2014 GPA: 3.5<br /><br />
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="media/resume.pdf">Resume</a>
+      </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="https://www.amazon.com/Things-Recent-Graduate-Computer-Science-ebook/dp/B0D9HX9V4G/">Book</a>
+   	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="https://www.udemy.com/course/spring-boot-tricks/">Udemy Course</a>
+	  </li>
+	  <li class="nav-item">
+	  	<a class="nav-link" href="https://www.youtube.com/@azadibogolubov/playlists">YouTube</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="https://medium.com/@azadibogolubov">Medium</a>
+   	  </li>
+    </ul>
+  </div>
+</nav>
 
-<b>PROFESSIONAL EXPERIENCE:</b><br />
-<b>SATO Global Solutions 11/16-4/17</b><br />
-<b><i>Android Software Engineer</i></b><br />
-<li>Full-stack Android Engineer responsible for the creation and maintenance of all facets of Vision software suite.</li>
-<li>Worked with UX team by way of direct contact as well as Zeplin to facilitate UX/UI requirements.</li>
-<li>Utilized Swagger to author and consume REST API interfaces.</li>
-<li>Database integration through PostgreSQL and MongoDB.</li>
-<li>Authored Espresso test suite to facilitate automation testing.</li>
-<li>Worked in mirroring the functionality of our mobile app in web interface using Angular 1.x.</li>
-<li>Utilized MQTT, RabbitMQ, and MQTT.fx for handling queued tasks and facilitating inter-device communications.</li>
-<li>3rd party libraries employed in development include: Butterknife, Glide, GSON, Retrofit, Flexbox, HockeySDK, Guava, and Timber.</li>
-<li>Assisted in the setup of Jenkins servers to facilitate automated builds, along with the use of HockeySDK to facilitate builds for test users to be able to get builds efficiently.•Handled performance analysis and increased runtime performance for multiple apps.</li>
-<li>Managed and configured Jenkins to facilitate automated builds and custom dynamic build scripting.</li>
-<li>Authored DevOps scripts to deploy products across diverse environments and different operating systems.</li><br /><br />
-			
-<b>Cigna 1/2016-Current</b><br />
-<b><i>Senior Software Engineer - W-2 Contractor</i></b><br />
-<li> Responsible for delivering consistent results as a full-stack engineer for the Cigna Compass Android and web apps, using native Java as well as Javascript libraries, while introducing and authoring an extensive suite of Espresso tests in Android as well as MochaJS for web to facilitate automated testing.<br />
-<li> Performed the overhaul process of modernizing business logic rules through the use of the MEAN stack on a multi-paradigm web interface.<br />
-<li> Assisted in maintenance of regression testing by means of TestRails and Jama case management software to ensure that all tests pass for each monthly release.<br />
-<li> Authoring Ansible playbooks for process automation.<br />
-<li> Creation of REST APIs and web services to consume data stores from Mongo for use in web and mobile apps.<br />
-<li> Trained QA teams on the process of writing automation test suites in Espresso, UITest, and MochaJS.<br />
-<li> Participated in the planning and advising process for the best practices in developing a greenfield Android solution.<br /><br />
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+	</div>
+</div>
 
-<b>Nike 9/2015-11/2015</b><br />
-<b><i>Mobile Automation Engineer - W-2 Contractor</i></b><br />
-<li>  Responsible for the creation and maintenance of UI, integration, and unit tests (Espresso, Appium,
-UITest) in preparation for the beta launch for an e-commerce mobile app in iOS 9 and Android 5.<br />
-<li> Using Postman to validate web services were functioning correctly.<br />
-<li> Authoring scripts in Charles web proxy to simulate service states and test corner cases.<br />
-<li> Worked with agile team using Xcode 7.1 using Swift 2 and Android Studio using Java 7 for writing tests.<br /><br />
-
-<b>Xerox 1/2015-9/2015</b><br />
-<b><i>Mobile Application Developer - W-2 Contractor</i></b><br />
-<li>  Fully responsible for UI/Integration on two Android mobile printing apps targeted for Android 5.<br />
-<li> Worked with an international team of engineers to facilitate the integration of the UI to back-end.<br />
-<li>  Developed service oriented architectural solutions that utilized the Internet Printing Protocol (IPP).<br />
-<li> Deliverables revolved around an Agile workflow and meetings facilitated with respect to international time zones.<br /><br />
-
-<b>Accurate Window &amp; Door 4/2014-5/2015</b><br />
-<b><i>Software Engineering Consultant</i></b><br >
-<li>  Sole consultant on a project enabling the electronic price quoting for thousands of possible item configurations.<br >
-<li>  Worked directly with the General Manager to facilitate an app friendly for both the user and the customer.<br />
-<li>  Data driven apps written fully in Java FX 8 and iOS 8 with Swift.<br /><br />
-
-<b>OCHIN 4/2014-8/2014</b><br />
-<b><i>Programmer/Developer 1</i></b><br />
-<li> Member of an Agile team on the development of an Electronic Health Records SaaS platform.<br />
-<li> Utilized Caradigm Intelligence platform to author business solutions for healthcare solutions.<br />
-<li> Authored big data web app in Node.js for scalable indexing of records and quick lookup in MongoDB and SQL Server.<br />
-<li> Developed automation solutions for testing project bottlenecks, as well as increasing runtime efficiency.<br /><br />
-
-<b>Senior Capstone Project: Parenting+  9/2013-3/2014</b><br />
-<b><i>UI Team Lead</i></b><br />
-<li>  Implemented a complete behavior tracking system for iPhone using Objective-C during the iOS 7 transition.<br />
-<li>  Agile iterated phase development using Xcode 5 and Visio.<br />
-<li>  Performed use case development for the project and worked closely with the company owner.<br />
-<li>  Worked with the team architect and sponsor to design a complete UI which mirrored the functionality of the web interface already in use by the company.<br /><br />
-
-<b>Nouvola  Portland, OR 5/2013 – 9/2013</b><br />
-<b><i>Software Engineering Intern</i></b><br />
-<li>  Sole UI developer for DiveCloud, a cloud scalability service written in Ruby on Rails and Javascript technologies.<br />
-<li>  Experience working with remote team using Agile and Scrum methodologies.<br />
-<li>  Created web services and REST APIs to consume big data and perform analytics on web traffic, DB volume, and load balancing information.<br /><br />
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">
+				Welcome to Degrees of Freedom
+			</h1>
+			<h2>
+				Where tech does not have to be hard!
+			</h2>
+			<div class="col-12">
+				<p class="lead">
+					My name is Azadi Bogolubov, I'm a software engineering professional, and I want to help you reach your goals...
+				</p>
+			</div>
 		</div>
 	</div>
+</div>
+
+<div clas="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fa-solid fa-book-open"></i>
+			<h3>Resume Writing</h3>
+			<p>There are so many opinions out there, how do you know which to follow?
+			Rather than take an opinionated approach, I share what has helped me in my journey.
+			Through this approach we work together to help you call out your metrics,
+			your action words, and to create a resume that will pop.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fa-solid fa-globe"></i>
+			<h3>Website Design</h3>
+			<p>As someone who has been working in the industry for the last 10 years,
+			I have the know-how to make both static and highly dynamic websites
+			for both small and medium businesses, with affordable rates.</p>
+		</div>
+		<div class="col-sm-12 col-sm-6 col-md-4">
+			<i class="fa-solid fa-laptop-code"></i>
+			<h3>Coaching/Mentoring</h3>
+			<p>I work with you to determine your goals and create a program to ensure your success.</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="justify-content-center row padding">
+		<div class="text-center col-md-6">
+			<h2>About Azadi:</h2>
+			<img src="img/azadi.jpg" width="25%" /><br /><br />
+			<p>Azadi started helping small businesses create websites, as well as tutoring fellow students while in university back in 2010,and has worked in roles ranging from small companies to household name corporations, both on contract and full-time.</p>
+			<p>Through this experience, he brings invaluable insights that can help those looking to raise the bar, whether they be recent graduates, those just looking into the industry, experienced engineers who simply want to up their game and know more about the different options in this vast ecosystem.</p>
+			<p>The goal of Degrees of Freedom is to create a place where people can approach tech and feel heard, as well as to be able to grow confidence in their skills over time, and become independent.</p>
+			<br />
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-6">
+				<h5>Rates:</h5>
+				<hr class="light" />
+				<p>Website Design: Contact me</p>
+				<p>Resume Review: $50</p>
+				<p>Coaching: $50/hour</p>
+			</div>
+			<div class="col-md-6">
+				<h5>Contact Info:</h5>
+				<hr class="light" />
+				<p>Phone: 503-933-3494</p>
+				<p><a href="mailto:azadibogolubov@gmail.com">Email</a></p>
+				<p><a href="https://www.linkedin.com/in/azadibogolubov">LinkedIn</a></p>
+			</div>
+			<vid class="col-12">
+				<hr class="light">
+				<h5>&copy; Degrees of Freedom</h5>
+			</vid>
+		</div>
+	</div>
+</footer>
+
 </body>
 </html>
